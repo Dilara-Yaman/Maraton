@@ -7,7 +7,7 @@ public class MaratonTest { //Dilara Yaman 2023141023
         Maraton maratonum = new Maraton(dakikalar,isimler);
         System.out.println("Birinci: " + isimler[maratonum.Birinci()] + " " + dakikalar[maratonum.Birinci()] + "'");
         System.out.println("İkinci: " + isimler[maratonum.Ikinci()] + " " + dakikalar[maratonum.Ikinci()] + "'");
-        System.out.println("Üçüncü:" + isimler[maratonum.Ucuncu()] + " " + dakikalar[maratonum.Ucuncu()] + "'");
+        System.out.println("Üçüncü: " + isimler[maratonum.Ucuncu()] + " " + dakikalar[maratonum.Ucuncu()] + "'");
         maratonum.abc();
     }
 }
